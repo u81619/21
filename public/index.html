@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>موقع رفع ملفات</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>رفع ملف</h1>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+      <label for="file">اختر ملف (مثال: png, jpg, pdf, txt, zip)</label><br/><br/>
+      <input type="file" id="file" name="myfile" required />
+      <br/><br/>
+      <button type="submit">ارفع الملف</button>
+    </form>
+
+    <hr/>
+    <p><a href="/files">عرض الملفات المرفوعة</a></p>
+  </main>
+</body>
+</html>
