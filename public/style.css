@@ -1,0 +1,27 @@
+/* public/style.css */
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background: #f6f8fa;
+  color: #111;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  text-align: right;
+}
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: linear-gradient(90deg,#2d8cff,#5b7cff);
+  color: white;
+  font-weight: 600;
+}
+a { color: #2b7be4; text-decoration: none;}
